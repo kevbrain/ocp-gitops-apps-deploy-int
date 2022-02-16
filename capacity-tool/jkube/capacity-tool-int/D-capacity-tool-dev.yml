@@ -9,7 +9,7 @@ metadata:
   labels:
     app: capacity-tool
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: capacity-tool
