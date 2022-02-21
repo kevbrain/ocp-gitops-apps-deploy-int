@@ -1,7 +1,7 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  namespace: first-ms-tst
+  namespace: first-ms-int
   annotations:
     its4u.placeholders/auto: "true"
     reloader.stakater.com/auto: "true"
@@ -111,5 +111,5 @@ spec:
             - name: emptydirlogs
               mountPath: /Logs
           image: >-
-            image-registry.openshift-image-registry.svc.cluster.local:5000/first-ms-tst/first-ms:0.0.1-SNAPSHOT
+            image-registry.openshift-image-registry.svc.cluster.local:5000/first-ms-int/first-ms:0.0.1-SNAPSHOT
       restartPolicy: Always
