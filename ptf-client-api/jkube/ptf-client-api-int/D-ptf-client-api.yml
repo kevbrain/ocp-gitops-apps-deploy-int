@@ -111,5 +111,5 @@ spec:
             - name: emptydirlogs
               mountPath: /Logs
           image: >-
-            image-registry.openshift-image-registry.svc.cluster.local:5000/ptf-client-api-int/ptf-client-api:0.0.1-SNAPSHOT
+            image-registry.openshift-image-registry.svc.cluster.local:5000/ptf-client-api-int/ptf-client-api:demo-0.0.1-SNAPSHOT
       restartPolicy: Always

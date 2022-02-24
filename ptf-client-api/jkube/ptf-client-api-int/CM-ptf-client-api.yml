@@ -17,5 +17,5 @@ data:
   app-container.port: "8080"
   app-request.cpu: "200m"
   ocp.replicas: "2"
-  app-version: "0.0.1-SNAPSHOT"
+  app-version: "demo-0.0.1-SNAPSHOT"
 ---
